@@ -1,0 +1,68 @@
+body{
+	background-color: #232323;
+	margin:0;
+}
+h1{
+	font-family: sans-serif;
+	background-color: steelblue;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin:0 auto;
+	padding: 10px;
+	line-height: 1.1;
+	font font-weight: 500;
+}
+.selected{
+	background-color: steelblue;
+	color:white;
+}
+.square{
+	background-color: purple;
+	width: 30%;
+	float: left;
+	/*To keep squares horizontally instead of default vertical manner*/
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background-color 0.6s;
+}
+#display {
+	display: inline-block;
+	width: 20%;
+	text-transform: uppercase;
+	color: steelblue;
+	font-size: 13px;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+
+.container{
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
+	color:#232323;
+}
+p{
+	color:white;
+}
+#stripe{
+	background-color: white;
+	text-align: center;
+	height: 30px;
+}
+button{
+	border:none;
+	background: none;
+	text-transform: uppercase;
+	color: steelblue;
+	outline: none;
+	font-weight: 700;
+	font-family: sans-serif; 
+	height: 100%;
+}
+button:hover{
+	color: white;
+	background-color: steelblue;
+	transition: all 0.3s;
+}
